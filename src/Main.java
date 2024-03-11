@@ -57,7 +57,8 @@ public class Main {
         //hometask7();
         //hometask8();
         //hometask9();
-        hometask5();
+        // hometask5();
+        hometask10();
     }
 
 
@@ -357,6 +358,19 @@ public class Main {
         }
     }
 
+    /*
+    Даны вещественные числа х и у, не равные друг другу.
+    Используя тернарный оператор, заменить меньшее из этих двух чисел половиной их суммы, а большее — их удвоенным произведением.
+     */
+    public static void hometask10() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите первое число");
+        System.out.println("Введите второе число");
+        double n1= scanner.nextDouble();
+        double n2= scanner.nextDouble();
+
+
+    }
 }
 
 
