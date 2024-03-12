@@ -365,9 +365,20 @@ public class Main {
     public static void hometask10() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите первое число");
-        System.out.println("Введите второе число");
         double n1= scanner.nextDouble();
+        System.out.println("Введите второе число");
         double n2= scanner.nextDouble();
+        double z,q;
+
+        if(n1!=n2&&n1>n2){
+            q=n1*2;
+            z=n2/2+n2/2;
+            System.out.println("Певрое число ="+q "\nВторое число"+z);
+        }else{
+            q=n2*2;
+            z=n1/2+n1/2;
+            System.out.println("Певрое число ="+q "\nВторое число"+z);
+        }
 
 
     }
